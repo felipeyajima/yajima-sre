@@ -1,5 +1,5 @@
 # Sre-Challenge
-## _A Stack para fim a fim para sua aplicação_
+## _A Stack de observabilidade fim a fim para sua aplicação_
 
 
 
