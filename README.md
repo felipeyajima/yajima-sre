@@ -59,7 +59,7 @@ Com a inclusão do módulo do prometheus no sistema, uma nova página foi inclui
 Abaixo estão os serviços disponibilizados nesta stack de observabilidade
 | Serviço | Porta | Metrics | 
 | ------ | ------ | ------ | 
-| Sistema Cliente | localhost:3000 | /metrics| 
+| Sistema Cliente | localhost:3000/clientes | /metrics| 
 | Prometheus | localhost:9090 | /metrics | 
 | Grafana | localhost:3000 | | 
 | Alertmanager | localhost:9093 | | 
