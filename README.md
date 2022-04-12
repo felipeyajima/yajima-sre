@@ -40,7 +40,9 @@ git clone git@github.com:felipeyajima/yajima-sre.git
 Ao baixar os arquivos, entre no diretório do projeto e inclua permissões específicas na pasta 'data', para que o grafana funcione corretamente
 
 ```sh
+
 cd yajima-sre
+sudo su
 sudo chown -R 472:472 data
 ```
 
