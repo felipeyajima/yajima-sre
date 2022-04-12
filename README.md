@@ -59,7 +59,7 @@ Com a inclusão do módulo do prometheus no sistema, uma nova página foi inclui
 Abaixo estão os serviços disponibilizados nesta stack de observabilidade
 | Serviço | Porta | Metrics | 
 | ------ | ------ | ------ | 
-| Sistema Cliente | localhost:3000/clientes | /metrics| 
+| Sistema Cliente | localhost:8000/clientes | /metrics| 
 | Prometheus | localhost:9090 | /metrics | 
 | Grafana | localhost:3000 | | 
 | Alertmanager | localhost:9093 | | 
@@ -70,7 +70,7 @@ Abaixo estão os serviços disponibilizados nesta stack de observabilidade
 
 Para visualizar os dashboards previamente criados, basta acessar o endereço do container onde está sendo executado o grafana. Utilizar os dados abaixo
 
-http://localhost:3000
+http://localhost:8000/clientes
 | Login | Senha |
 | ------ | ------ |
 | admin | 123456| 
